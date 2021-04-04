@@ -128,6 +128,64 @@ a:after {
   vertical-align: middle;
 }
 
+/* Interests */
+.interests {
+  background: #022c49;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+} 
+
+.interests h5 {
+  color: white;
+}
+
+.interests p, h4 {
+  color: white;
+}
+
+.interests i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+/* Interests Button */
+.button-card {
+  display: flex;
+  height: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.75rem 0.75rem;
+  margin: 0.75rem 0.75rem;
+  border-radius: 5px;
+  background-color: #354d5e;
+  box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
+}
+
+/* Hover effect */
+.interests_reading:hover {
+  opacity: .7;
+}
+
+.interests_reading:hover {
+  text-decoration: underline;
+}
+
+/*Button layout */
+.button-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 
 .footer {
