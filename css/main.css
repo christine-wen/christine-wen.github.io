@@ -166,15 +166,6 @@ a:after {
   box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
 }
 
-/* Hover effect */
-.interests_reading:hover {
-  opacity: .7;
-}
-
-.interests_reading:hover {
-  text-decoration: underline;
-}
-
 /*Button layout */
 .button-flex-row {
   display: flex;
